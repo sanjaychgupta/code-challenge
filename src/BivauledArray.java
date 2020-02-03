@@ -18,7 +18,7 @@ public class BivauledArray {
         }
         return len;
     }
-    public static int bivaluedArray(int A[], int start, int end){
+    private int bivaluedArray(int A[], int start, int end){
         if((end - start) == 1 ){
             return 2;
         }
@@ -29,7 +29,7 @@ public class BivauledArray {
             return slice.length;
         return 0;
     }
-    public static boolean isBiValued(int A[]){
+    private boolean isBiValued(int A[]){
         int end = A.length;
         Set<Integer> set = new HashSet();
         for(int i = 0; i < end; i++){
