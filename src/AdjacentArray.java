@@ -31,12 +31,11 @@ public class AdjacentArray {
     }
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-
         AdjacentArray s = new AdjacentArray();
-        int[] A = { 1, 4, 7, 3, 3, 5 };
-        System.out.println(Arrays.binarySearch(A,5));
-        System.out.print(s.solution(A));
+        int[] arr = { 1, 4, 7, 3, 3, 5 };
+
+        System.out.println(Arrays.binarySearch(arr,5));
+        System.out.print(s.solution(arr));
     }
 
 }
