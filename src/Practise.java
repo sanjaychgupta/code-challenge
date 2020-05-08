@@ -24,10 +24,9 @@ public class Practise {
         if(n<=1){
             return n;
         }
-        // rebase comment #1
-        // rebase commit  #2
         return recuFibo(n-1) + recuFibo(n-2);
     }
+    // main method.
     public static void main(String[] args) {
         uptoFibo(9);
         System.out.println(recuFibo(9));
