@@ -1,8 +1,5 @@
 
 /***
- * Welcome to GDB Online.
- * GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP.
- * Code, Compile, Run and Debug online from anywhere in world.
  * Task description
  *
  * XOR is a standard operation on bits. If X and Y are two bits (1s or 0s), then X XOR Y equals 1 when X ≠ Y. Otherwise X XOR Y = 0.
