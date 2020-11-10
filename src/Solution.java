@@ -257,5 +257,6 @@ class Solution {
 
         System.out.println("S   :"+s.hashCode());
         System.out.println("S1  :"+s1.hashCode());
+        System.out.println(Runtime.getRuntime().availableProcessors());
     }
 }
