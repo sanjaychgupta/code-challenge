@@ -1,15 +1,13 @@
 package interview;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.sql.SQLOutput;
+import java.util.*;
 
 
 public class TreeCode {
     public static List <List <Integer>> cacheList1 = new ArrayList <List <Integer>>();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws RuntimeException {
         System.out.println("Hello world");
         TreeCode tree = new TreeCode();
         /*Node root = new Node(5);
@@ -40,6 +38,28 @@ public class TreeCode {
         String stringWithoutSpaces = inputString.replaceAll("\\s+", "");
         System.out.println(stringWithoutSpaces);
 
+
+        System.out.println("____________________________________________________________");
+
+        long a = 1l;
+        long b=1l;
+        System.out.println(a/b);
+        double c = 1.0f;
+        double d=0.0f;
+        System.out.println(c/d);
+        tree.checkRuntimeException();
+
+    }
+    void checkRuntimeException(){
+        int arr[]= {1,2,3,4,5,6};
+        try{
+            System.out.println(arr[9]);
+        }catch (RuntimeException e){
+            throw new RuntimeException("You finally sucked");
+        }
+        finally{
+            System.out.println("we caught an exception");
+        }
 
     }
 
@@ -105,3 +125,6 @@ public class TreeCode {
 
     }
 }
+
+
+

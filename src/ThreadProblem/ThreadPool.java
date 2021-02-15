@@ -1,4 +1,4 @@
-package ArrayProblems;
+package ThreadProblem;
 
 import java.util.concurrent.LinkedBlockingQueue;
 

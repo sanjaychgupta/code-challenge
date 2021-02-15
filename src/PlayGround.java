@@ -1,6 +1,3 @@
-package ArrayProblems;
-
-
 import java.math.BigInteger;
 import java.time.Duration;
 import java.time.Instant;

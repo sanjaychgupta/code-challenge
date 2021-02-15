@@ -1,4 +1,4 @@
-package ArrayProblems;
+package ThreadProblem;
 
 public class Task implements Runnable {
 
