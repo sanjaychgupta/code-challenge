@@ -183,7 +183,7 @@ class Solution {
 
     public static void main(String[] args) {
         /*int nums[] = {2, 5, 1, 3, 4, 7, 8, 9};
-        for (int i : Solution.shuffle(nums, 4)
+        for (int i : DSet.shuffle(nums, 4)
                 ) {
             System.out.print(i);
             System.out.print(" ");
@@ -192,18 +192,18 @@ class Solution {
         System.out.println(7 & 1);
 
         int nums1[] = {3, 5, 1};
-        Solution.permute(nums1);
+        DSet.permute(nums1);
 
-        System.out.println(Solution.checkIsAP(nums1, nums1.length));
+        System.out.println(DSet.checkIsAP(nums1, nums1.length));
 
         int nums2[] = {2, 4, 6, 10};
-        System.out.println(Solution.calcSets(nums2, 16));
+        System.out.println(DSet.calcSets(nums2, 16));
 
 
-        System.out.println(Solution.calcSetsDP(nums2, 16));
+        System.out.println(DSet.calcSetsDP(nums2, 16));
 
 
-        System.out.println(Solution.calcFib(4));
+        System.out.println(DSet.calcFib(4));
         System.out.println(5 >>> 1);
 */
 
